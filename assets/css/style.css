@@ -2,14 +2,16 @@ body {
   width:100%;
   margin: 0 auto;
   background-image: url("../images/concrete_seamless.png");
+  font-family: Arial, Helvetica, sans-serif;
 
 }
 
 .header {
     background-color: #ffffff;
-    border-bottom: #666666 1px solid;
+    border-bottom: #cccccc 1px solid;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #ffffff;
+    height: 75px;
 
 }
 
@@ -17,15 +19,21 @@ body {
     background-color: #4aaaa5;
     float: left;
     color: #ffffff;
-    padding: 15px;
+    padding: 29px 20px 0px 16px;
     margin: 0 0 0 250px;
+    height: 46px;
+    text-align: center;
 
 
 }
 
+.nav {
+    padding: 22px;
+}
+
 ul {
     list-style-type: none;
-    margin: 0 15px 0 0;
+    margin: 0 193px 0 0;
     padding: 0;
     overflow: hidden;
     background-color: #ffffff;
@@ -33,44 +41,52 @@ ul {
 
 li {
     float: right;
+    padding: 0px 1px 9px 0px;
+    margin: 0px;
+    height: 35px;
+    text-align: center;
 }
 li a {
     display: block;
-    color: black;
+    color: #666666;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 14px;
     background-color: #ffffff;
-    border-right: black 1px solid;
+    border-right: #666666 1px solid;
     
     
 }
 
-li:last-child {
+li:first-child {
     border-right: none;
 }
 
 li a:hover {
-    background-color: aqua;
+    background-color:#cccccc;
     color: #ffffff;
 }
 
 .active {
-    background-color: rgb(127, 216, 238);
+    background-color: rgb(101, 99, 102);
     color: #ffffff;
 }
 
 #about {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
     color: #00afa9;
     clear: both;
-    border-bottom: #666666 1px;
+    border-bottom: #cccccc 3px solid;
+    height: 47px;
+    width: 909px;
 }
 .content {
     width: 960px;
     height: 500px;
     margin: 30px 0 0 254px;
-    
+    background-color: #dddddd 1px solid;
     background-size: 960px;
      
 
@@ -82,6 +98,7 @@ section {
     border: #dddddd;
     width: 960px;
     height: 450px;
+    border: #efefef 1px solid;
 }
 
 img {
@@ -91,6 +108,8 @@ img {
 
 p {
     margin: 0 0 0 185px;
+    color: #777777;
+    line-height: 25px;
 }
 
 footer {
@@ -99,6 +118,24 @@ footer {
     text-align: center;
     padding: 20px;
     border: #4aaaa5 2px solid;
-    margin: 350px 0 0 0;
+    margin: 160px 0 0 0;
     color: #ffffff;
 }
+
+#fname {
+    display: block;
+    width: 100%;
+    padding: 10px;
+}
+ #message {
+     display: block;
+     width: 100%;
+     padding: 10px;
+     size: 200;
+ }
+
+ #mail {
+     display: block;
+     width: 100%;
+     padding: 10px;
+ }
