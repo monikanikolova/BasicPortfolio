@@ -122,20 +122,35 @@ footer {
     color: #ffffff;
 }
 
+
 #fname {
     display: block;
-    width: 100%;
+    width: 877px;
     padding: 10px;
 }
  #message {
      display: block;
-     width: 100%;
+     width: 875px;
+     height: 130px;
      padding: 10px;
-     size: 200;
+    
  }
 
  #mail {
      display: block;
-     width: 100%;
+     width: 875px;
      padding: 10px;
+     
  }
+
+.pictures {
+    display: block;
+}
+
+.port {
+    margin: 15px 40px;
+}
+ 
+#cut {
+    margin: 30px 0 0 0;
+}
