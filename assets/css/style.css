@@ -76,7 +76,8 @@ li a:hover {
     clear: both;
     border-bottom: #cccccc 3px solid;
     height: 47px;
-    width: 965px;
+    width: 860px;
+    padding: 1px 0 0 20px;
 }
 .content {
     width: 960px;
@@ -88,10 +89,10 @@ li a:hover {
 
 }
 section {
-    padding: 3px 0 0 5px;
+    padding: 3px 0 0 30px;
     background-color: #ffffff;
     border: #dddddd;
-    width: 960px;
+    width: 900px;
     height: 450px;
     border: #efefef 1px solid;
     
@@ -139,6 +140,8 @@ footer {
     display: block;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 10px;
+    padding: 0px 0 0 5px;
+    margin: 0;
 }
 
 .port {
@@ -186,8 +189,8 @@ footer {
     background-color: #4aaaa5;
     padding: 3px;
     position: absolute;
-    top: 295px;
-    left: 990px;
+    top: 438px;
+    left: 760px;
     width: 144px;
     text-align: center;
 }
@@ -227,16 +230,6 @@ footer {
     text-align: center;
 }
 
-#leight {
-    color: #dddddd;
-    background-color: #4aaaa5;
-    padding: 3px;
-    position: absolute;
-    top: 438px;
-    left: 990px;
-    width: 144px;
-    text-align: center;
-}
  
 #cut {
     margin: 30px 0 0 0;
@@ -247,5 +240,7 @@ form {
 }
 
 #next {
-    margin: 30px;
+    margin: 35px;
 }
+
+
